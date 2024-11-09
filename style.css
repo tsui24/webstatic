@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif
+}
+
+.first-location {
+    background-color: #2d9ffe;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 30px;
+    color: aliceblue;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-right: 80px;
+    width: 5%;
+}
+
+.infor-compa {
+    margin-right: 80px;
+}
+
+.main-compa {
+    color: #272a61;
+}
+
+.no-compa {
+    color: #03467D;
+    text-align: center;
+}
+
+.baocao {
+    display: flex;
+}
+
+.baocao p {
+    margin-right: 5px;
+}
+
+.red {
+    color: #ed1c24;
+}
+
+.list-service {
+    background-color: #272a61;
+}
+
+.item-danhsach {
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    padding: 0 10px;
+}
+
+.service-item {
+    padding: 8px 20px;
+}
+
+.service-item:hover {
+    background-color: #5e619b;
+}
+
+.list-img {
+    display: flex;
+    padding: 40px 20px;
+    background-color: rgb(233, 233, 233);
+}
+
+.item-img {
+    text-align: center;
+    width: 16.66%;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+
+.content {
+    background-color: rgb(242, 242, 242);
+    padding: 40px 20px;
+    display: flex;
+}
+
+.main-content {
+    width: 50%;
+}
+
+.infor-content img {
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.infor-content h4 {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid rgb(160, 149, 149);
+}
+
+.infor-content p {
+    color: rgb(148, 144, 144);
+    font-size: 14px;
+}
+
+.content-left {
+    width: 25%;
+}
+
+.content-left {
+    padding: 40px 16px;
+}
+
+.dai-bieu {
+    border-bottom: 2px solid rgb(160, 149, 149);
+    padding-bottom: 8px;
+}
+
+.dai-bieu img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.huongdan {
+    list-style: none;
+}
+
+.huongdan-link {
+    margin-top: 20px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgb(160, 149, 149);
+}
+
+.dichvu-khachhang {
+    width: 25%;
+    padding-top: 40px;
+}
+
+.form-dichvu {
+    background-color: white;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #2d9ffe;
+}
+
+.form-dichvu h3 {
+    text-align: center;
+    color: white;
+    background-color: #2d9ffe;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.list-dichvu {
+    list-style: none;
+}
+
+.dichvu-item {
+    padding: 5px 12px;
+    font-weight: 600;
+}
+
+.input-tra {
+    padding: 8px 8px;
+    border: 2px solid #2d9ffe;
+    border-radius: 8px;
+}
+
+.tra-cuu {
+    margin: 10px 20px;
+    padding-right: 20px;
+}
+
+.tra-cuu h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tra-cuu input {
+    width: 100%;
+}
+
+.benduoi {
+    background-color: white;
+    padding: 30px 20px;
+    display: flex;
+}
+
+.content-phu {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.content-phai h3 {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.content-phai button {
+    color: white;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 16px;
+    background-color: #2d9ffe;
+    border: none;
+}
+
+.tintuc-sukien {
+    width: 25%;
+}
+
+.title-tintuc {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(160, 149, 149);
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.title-tintuc p {
+    color: #2d9ffe;
+}
+
+.box-info {
+    display: flex;
+}
+
+.box-info img {
+    width: 30%;
+    margin-right: 12px;
+    border-radius: 10px;
+}
+
+.box-info p {
+    width: 70%;
+    border-bottom: 2px solid rgb(160, 149, 149);
+}
+
+.img-active {
+    width: 25%;
+    padding: 0 20px;
+}
+
+.img-active img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+}
+
+.location-compa,
+.location-2 {
+    width: 50%;
+}
+
+.location-compa p {
+    margin: 8px 0;
+}
+
+.location-2 p {
+    margin: 8px 0;
+}
+
+.footer {
+    padding: 20px 20px;
+}
+
+.last-footer {
+    color: white;
+    padding: 20px 20px;
+    background-color: #272a61;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tron {
+    height: 30px;
+    width: 30px;
+    background-color: #2d9ffe;
+    border-radius: 50%;
+}
+
+.tron1 {
+    height: 10px;
+    width: 10px;
+    background-color: #2d9ffe;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.list-tron {
+    display: flex;
+    justify-content: center;
+}

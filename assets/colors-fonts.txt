@@ -1,0 +1,7 @@
+xanh da trời nhạt: #2d9ffe
+xanh biển đậm: #272a61
+xanh biển sáng: #03467D
+màu đỏ: #ed1c24
+xám đậm: rgb(233, 233, 233)
+xám nhạt: rgb(242, 242, 242)
+font-family: "Roboto", sans-serif
